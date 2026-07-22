@@ -70,13 +70,9 @@ Iris-Project/
 
 ## 🚀 Live Demo
 
-**GitHub Pages:**
+🌐 **Live Website:**
 
-Paste your website link here after deployment.
-
-Example:
-
-`https://houriyash.github.io/iris-flower-classifier-project`
+👉 **https://houriyash.github.io/iris-flower-classifier-project**
 
 ---
 
