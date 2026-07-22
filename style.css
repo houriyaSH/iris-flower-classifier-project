@@ -29,92 +29,42 @@ h2 {
   color: #fff;
 }
 input{
-
     width:150px;
-
     padding:5px;
-
     border-radius:5px;
-
     border:none;
-
 }
 #result{
-
     font-size:22px;
-
     font-family:tahoma;
-
     color:white;
-
     margin-top:10px;
-
 }
 @media screen and (max-width:768px){
-
-
     header h1{
-
         font-size:24px;
-
     }
-
-
     header p{
-
         font-size:18px;
-
     }
-
-
-
     #leftC{
-
         float:none;
-
         margin:20px auto;
-
         width:80%;
-
         text-align:center;
-
     }
-
-
-
     .toz{
-
         margin:20px auto;
-
         width:80%;
-
     }
-
-
-
     input{
-
         width:80%;
-
     }
-
-
-
     .mybutton{
-
         margin:5px;
-
         padding:10px 15px;
-
     }
-
-
-
     footer h1{
-
         font-size:20px;
-
     }
-
-
 }
