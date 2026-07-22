@@ -7,7 +7,7 @@ let maxValues = [];
 // خواندن دیتاست
 window.onload = function(){
 
-    Papa.parse("iris.csv", {
+    Papa.parse("./iris.csv", {
 
         download: true,
 
