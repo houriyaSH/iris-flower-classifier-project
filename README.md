@@ -76,7 +76,7 @@ Paste your website link here after deployment.
 
 Example:
 
-`[https://yourusername.github.io/iris-flower-classifier/](https://houriyash.github.io/iris-flower-classifier-project/)`
+`https://houriyash.github.io/iris-flower-classifier-project`
 
 ---
 
