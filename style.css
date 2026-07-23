@@ -2,6 +2,7 @@ p {
     color: rgb(190, 93, 93);
     font-size: 24px;
 }
+
 body {
     background-color: lightgray;
     background-image: url('https://golnikrah.com/wp-content/uploads/2023/02/types-of-iris.jpg');
@@ -11,12 +12,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background: #333;
     color: white;
     padding: 10px;
     text-align: center;
 }
+
 footer {
     background: #333;
     color: white;
@@ -24,6 +27,7 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
 h1 {
     font-size: 30px;
 }
@@ -32,6 +36,7 @@ h2 {
     font-size: 22px;
     color: white;
 }
+
 #leftC {
     float: right;
     margin: 45px;
@@ -44,6 +49,7 @@ h2 {
     min-height: 350px;
     background-color: rgb(116, 107, 107);
 }
+
 .toz {
     margin: 20px;
     padding: 20px;
@@ -53,20 +59,24 @@ h2 {
     width: 500px;
     max-width: 90%;
 }
+
 .matn {
     font-size: 18px;
     color: black;
 }
+
 .lablet {
     font-size: 18px;
     font-family: tahoma;
 }
+
 input {
     width: 150px;
     padding: 7px;
     border-radius: 5px;
     border: none;
 }
+
 .mybutton {
     background-color: #121213;
     border: none;
@@ -77,10 +87,12 @@ input {
     font-size: 16px;
     cursor: pointer;
 }
+
 .mybutton:hover {
     background-color: #030303;
     font-size: 24px;
 }
+
 #result {
     font-size: 22px;
     font-family: tahoma;
@@ -88,16 +100,21 @@ input {
     margin-top: 10px;
 }
 
+
 @media screen and (max-width:768px) {
+
     body {
         background-position: center;
     }
+
     header h1 {
         font-size: 22px;
     }
+
     header p {
         font-size: 16px;
     }
+
     #leftC {
         float: none;
         width: 80%;
@@ -105,21 +122,26 @@ input {
         padding: 20px;
         text-align: center;
     }
+
     .toz {
         width: auto;
         margin: 20px auto;
         padding: 20px;
     }
+
     .matn {
         font-size: 16px;
     }
+
     input {
         width: 90%;
     }
+
     .mybutton {
         margin: 5px;
         padding: 10px 15px;
     }
+
     footer h1 {
         font-size: 18px;
     }
