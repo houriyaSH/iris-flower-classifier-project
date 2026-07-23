@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
+    padding: 0;
 }
 header {
     background: #333;
@@ -26,6 +27,7 @@ footer {
 h1 {
     font-size: 30px;
 }
+
 h2 {
     font-size: 22px;
     color: white;
@@ -33,10 +35,13 @@ h2 {
 #leftC {
     float: right;
     margin: 45px;
+    margin-right: 300px;
     padding: 30px;
     border: solid;
     border-radius: 20px;
+    border-width: 2px;
     width: 300px;
+    min-height: 350px;
     background-color: rgb(116, 107, 107);
 }
 .toz {
@@ -52,11 +57,29 @@ h2 {
     font-size: 18px;
     color: black;
 }
+.lablet {
+    font-size: 18px;
+    font-family: tahoma;
+}
 input {
     width: 150px;
     padding: 7px;
     border-radius: 5px;
     border: none;
+}
+.mybutton {
+    background-color: #121213;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mybutton:hover {
+    background-color: #030303;
+    font-size: 24px;
 }
 #result {
     font-size: 22px;
@@ -64,6 +87,7 @@ input {
     color: white;
     margin-top: 10px;
 }
+
 @media screen and (max-width:768px) {
     body {
         background-position: center;
@@ -94,6 +118,7 @@ input {
     }
     .mybutton {
         margin: 5px;
+        padding: 10px 15px;
     }
     footer h1 {
         font-size: 18px;
