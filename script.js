@@ -2,21 +2,15 @@ let trainingData = [];
 let minValues = [];
 let maxValues = [];
 
-window.onload = function(){
-    
-    Papa.parse("./iris.csv",{
-        
+window.onload = function(){    
+    Papa.parse("./iris.csv",{        
         download: true,
         header: true,
         
-        complete: function(results){
-            
-            results.data.forEach(row =>{
-                
-                if(row.SepalLengthCm){
-                    
-                    trainingData.push({
-                        
+        complete: function(results){            
+            results.data.forEach(row =>{                
+                if(row.SepalLengthCm){                    
+                    trainingData.push({                        
                         features:[
                             Number(row.SepalLengthCm),
                             Number(row.SepalWidthCm),
@@ -59,8 +53,7 @@ function distance(a,b){
     );
 }
 
-function predict(){
-    
+function predict(){    
     let values = [
         document.getElementById("sepalLength").value,
         document.getElementById("sepalWidth").value,
